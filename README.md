@@ -1,10 +1,11 @@
-# Disable Chromium's and Chrome's Developer Mode Extension Warning Popup & Elision WWW/HTTPS Hiding & Debugging Extension Popup
-**Download** it in the [release section](https://github.com/Ceiridge/Chrome-Developer-Mode-Extension-Warning-Patcher/releases).
+# 请停用以开发者模式运行的扩展程序 正式版在使用开发者模式的弹窗警告补丁FORK 
+# 方便国内用户搜索 与使用 中文机翻
 
-## Supported browsers
+
+## 支持的浏览器
 See below for the custom paths (commandline option).
 ```javascript
-- All x64 and x86/x32 bit Chromium-based browsers, including:
+- 支持所有 x64 and x86/x32 bit Chromium-内核浏览器,
 - Chrome ✓
 - Chromium
 - Brave ✓
@@ -16,15 +17,15 @@ See below for the custom paths (commandline option).
 - Epic Browser
 - Iron Browser
 - Ungoogled Chromium?
-```
+.
 
-## Message to Chromium contributors
-This project is not meant for malicious use, especially because patching requires administrative rights. If an attacker wants to get rid of that notification, they will always be able to do it somehow, since it clientsided. Additionally, you can just install a crx-file and allow it with some group policies, which makes absolutely no sense, because it punishes developers with this annoying popup, but crx files that are already packed can be installed easily.
+## 如何使用
+使用该程序修改chrome.dll文件，不再显示该对话框
 
-The idea originates from that one stackoverflow patching method, which forces a command line option in the `chrome.dll`.
 
-## How the program works
-It discovers all `chrome.dll` files of the latest installed Chromium browsers. Then it performs a pattern scan for functions that getspatched, so the dialog does not appear anymore.
+
+
+
 
 ## Gui Screenshot
 ![Gui Screenshot](https://raw.githubusercontent.com/Ceiridge/Chrome-Developer-Mode-Extension-Warning-Patcher/master/media/guiscreenshot.png)
