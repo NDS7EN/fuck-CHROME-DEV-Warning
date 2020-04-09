@@ -1,9 +1,7 @@
 # 请停用以开发者模式运行的扩展程序 正式版在使用开发者模式的弹窗警告补丁FORK 
 # 方便国内用户搜索 与使用 中文机翻
-https://raw.githubusercontent.com/NDS7EN/fuck-CHROME-DEV-Warning/master/wrring.png
 ## 截图
 ![截图](https://raw.githubusercontent.com/NDS7EN/fuck-CHROME-DEV-Warning/master/wrring.png)
-
 
 ## 支持的浏览器
 See below for the custom paths (commandline option).
