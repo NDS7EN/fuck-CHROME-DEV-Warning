@@ -31,5 +31,8 @@ See below for the custom paths (commandline option).
 默认程序会自动选择位置
 "C:\Program Files (x86)\Google\Chrome\Application\版本号80\chrome.dll
 打开浏览器右键查找位置里面有个版本号 有个CHROME.DLL。关闭浏览器 然后选择这个DLL 然后打补丁。 重新打开浏览器
-```
+``````
 ## 现在你可以不用每次打开浏览器弹出一个弹窗了
+
+
+
